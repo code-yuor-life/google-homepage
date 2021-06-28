@@ -1,4 +1,28 @@
+;root{
+  --fo:arial;
+  --col:#222;
+}
 
-h1{
-  background-color: blue;
+.text{
+  font: 14px arial sans-serif;
+  margin: 5px 10px 5px 10px;
+
+}
+#logo{
+position: absolute;
+top:25vh;
+left:105vh;
+}
+#gm{
+  position: absolute;
+  right:25vh;
+}
+#im{
+  position: absolute;
+  right:15vh;
+
+}
+a:link{
+  text-decoration: none;
+  color:var(--col);
 }
