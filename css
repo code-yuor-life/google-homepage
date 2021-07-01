@@ -6,7 +6,9 @@
 .text, .bhalf{
   font: 14px arial sans-serif;
   margin: 15px 10px 5px 10px;
-
+}
+.bhalf{
+color: rgb(112, 117, 122);
 }
 #dots{
   width:3vh;
@@ -78,7 +80,17 @@ a:link{
   position: absolute;
   bottom: 3vh;
 }
+#carb{
+  position:absolute;
+  right:50vw;
+  bottom:1vh;
+font-size:14px;
+width:70px;
+height:30px;
+
+}
 #right{
   position: absolute;
-!important  right:2vh;
+ right:2vh;
+ bottom:1vh;
 }
