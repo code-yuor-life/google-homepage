@@ -8,7 +8,7 @@
   margin: 15px 10px 5px 10px;
   color:var(--col);
 }
-.bhalf{
+.bhalf, #carb{
 color: rgb(112, 117, 122);
 }
 #dots{
@@ -18,24 +18,36 @@ color: rgb(112, 117, 122);
   right:17vh;
   top:3vh;
 }
+#magglass{
+  position: absolute;
+  height:3vh;
+  width:1.2vw;
+  top:41.5vh;
+  right:62.5vw;
+z-index: 2;
+}
 #tbar{
   position:absolute;
   top:40vh;
   right:85vh;
   width:30vw;
-height:5vh;
+height:6vh;
 border-radius: 30px;
+border:1px solid rgb(232,232,232);
+box-shadow: 1px 1px 1px 1px rgb(217,217,217);
+z-index: 1;
 }
 #feelsearch{
   position: absolute;
   top:50vh;
   right: 105vh;
   margin: 2px 15px 10px 10px;
-  border-color: white;
+
 }
 .botbut{
   width:7vw;
   height:5vh;
+  border:1px solid transparent;
 }
 #sign{
   position: absolute;
@@ -71,18 +83,33 @@ a:link{
   height:17vh;
   position: absolute;
   bottom:0px;
-  background-color:rgb(242,242,242)
+  background-color:rgb(242, 242, 242);
 }
 #toph{
   width:100vw;
   height:6vh;
   border-color: rgb(218, 220, 224);
 }
-
+#utext{
+  margin:2px 2px 2px 24px;
+}
+#uk{
+  position: absolute;
+  width:100vw;
+  height:4vh;
+  bottom:90px;
+  border-bottom:1px solid #dadce0;
+}
+#bottomboth{
+  width:100vw;
+  overflow:hidden;
+  white-space: nowrap;
+}
 #carb{
   position:absolute;
-  right:50vw;
-  color:rgb(34, 34, 34);
+  bottom:1vh;
+  right:45vw;
+
 }
 #left{
   position: absolute;
