@@ -4,10 +4,11 @@
 }
 
 .text, .bhalf, #carb {
-  font: 14px arial sans-serif;
-  margin: 15px 10px 5px 10px;
+  font: 13px arial sans-serif;
+  margin: 15px 5px 5px 10px;
   color:var(--col);
 }
+
 .bhalf, #carb{
 color: rgb(112, 117, 122);
 }
@@ -53,12 +54,16 @@ z-index: 1;
   position: absolute;
   top:2vh;
   right:2vh;
-  border-radius: 10px;
+  border-radius: 6px;
   width:5vw;
   height:5vh;
   background-color:#1a73e8;
   color:white;
-  font-size:15px;
+  font-size:14px;
+  font-stretch: 100%;
+  line-height:40px;
+  display: flex;
+  justify-content: center;
 }
 #logo{
 position: absolute;
@@ -67,11 +72,21 @@ left:105vh;
 }
 #gm{
   position: absolute;
-  right:35vh;
+  right:13vw;
 }
 #im{
   position: absolute;
-  right:25vh;
+  right:9vw;
+}
+#st{
+  position:absolute;
+  left:4vw;
+  top:1vh;
+}
+#ab{
+ position: absolute;
+ top:1vh;
+
 
 }
 a:link{
