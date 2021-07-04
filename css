@@ -3,9 +3,10 @@
   --col:#222;
 }
 
-.text, .bhalf{
+.text, .bhalf, #carb {
   font: 14px arial sans-serif;
   margin: 15px 10px 5px 10px;
+  color:var(--col);
 }
 .bhalf{
 color: rgb(112, 117, 122);
@@ -30,6 +31,7 @@ border-radius: 30px;
   top:50vh;
   right: 105vh;
   margin: 2px 15px 10px 10px;
+  border-color: white;
 }
 .botbut{
   width:7vw;
@@ -69,28 +71,26 @@ a:link{
   height:17vh;
   position: absolute;
   bottom:0px;
-  background-color:#dadce0;
+  background-color:rgb(242,242,242)
 }
 #toph{
   width:100vw;
   height:6vh;
   border-color: rgb(218, 220, 224);
 }
-#both{
-  position: absolute;
-  bottom: 3vh;
-}
+
 #carb{
   position:absolute;
   right:50vw;
-  bottom:1vh;
-font-size:14px;
-width:70px;
-height:30px;
-
+  color:rgb(34, 34, 34);
+}
+#left{
+  position: absolute;
+  left: 25px;
+  bottom:2vh;
 }
 #right{
-  position: absolute;
- right:2vh;
- bottom:1vh;
+position: absolute;
+right:25px;
+bottom:2vh;
 }
